@@ -1,0 +1,115 @@
+.website-logo {
+    width: 125px;
+    height: 70px;
+  }
+
+  .bg1{
+    display: flex;
+  }
+
+  .nav-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+     height: 13vh; 
+     margin: 0px;
+  }
+
+  .nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    /* background-color: aqua; */
+    padding: 15px 0 25px 0;
+  }
+
+  .bot1{
+    height: 30px;
+    width: 70px;
+    color: rgb(134, 127, 127);
+    font-weight: bold;
+    background-color: black;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: 0px;
+  }
+
+  .wra{
+    background-color: transparent;
+  }
+
+  .il1{
+    color: white;
+  }
+
+  .website-logo1 {
+    width: 145px;
+    height: 80px;
+  }
+
+  .bt1{
+   height: 40px;
+   width: 110px; 
+   background-color: blueviolet;
+   border-radius: 5px;
+   margin-top: 10px;
+   border: 0px;
+   font-family: 'Robato';
+   font-size: 20px;
+   color: wheat;
+   cursor: pointer;
+
+  }
+  .bt2{
+    height: 40px;
+    width: 110px; 
+    background-color: rgb(86, 40, 254);
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 0px;
+    font-family: 'Robato';
+    font-size: 20px;
+    color: wheat;
+    cursor: pointer;
+   }
+
+   .bt3{
+    height: 40px;
+    width: 110px; 
+    background-color: rgb(25, 188, 58);
+    border-radius: 5px;
+    border: 0px;
+    font-family: 'Robato';
+    font-size: 20px;
+    color: wheat;
+    margin-right: 15px;
+    cursor: pointer;
+   }
+
+   .bt4{
+    height: 40px;
+    width: 110px; 
+    background-color: rgb(181, 21, 66);
+    border-radius: 5px;
+    border: 0px;
+    font-family: 'Robato';
+    font-size: 20px;
+    color: wheat;
+    cursor: pointer;
+   }
+
+   .bt5{
+    height: 40px;
+    width: 110px; 
+    background-color: rgb(209, 92, 29);
+    border-radius: 5px;
+    border: 0px;
+    font-family: 'Robato';
+    font-size: 20px;
+    color: wheat;
+    cursor: pointer;
+   }
+   

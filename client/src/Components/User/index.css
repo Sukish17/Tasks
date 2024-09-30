@@ -1,0 +1,60 @@
+
+.img1{
+    height: 350px;
+    width: 35%;
+    border-right: 2px solid#fff;
+    background: transparent;
+}
+.bg1{
+    background-image: url('https://img.pikbest.com/wp/202408/work-desk-for-productivity-3d-model-of-a-working-with-laptop_9620593.jpg!w700wp');
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.bg2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:transparent;
+    box-shadow: 0px 2px 10px;
+   
+
+}
+.bg3{
+    width: 65%;
+    height: 350px;
+    background-image: linear-gradient(to left,#868686,#a7a5a5);
+    background-size: cover;
+    padding: 5px;
+}
+.c1{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bolder;
+}
+.h1{
+    font-family: 'robato';
+    font-size: 25px;
+    color: rgb(13, 13, 13);
+    text-decoration: none;
+}
+@media (max-width:768px) {
+    .h1{
+        font-size: 15px;
+    }
+    .c1{
+        font-size: 10px;
+    }
+    .bg3{
+        width: 65%;
+        height: 250px;
+    }
+    .img1{
+        height: 250px;
+       
+    }
+}
