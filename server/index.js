@@ -31,8 +31,8 @@ app.use(session({
     cookie: { maxAge: 24 * 60 * 60 * 1000 } // 1 day
 }));
 
-app.listen(process.env.PORT, () => {
-    console.log(`Server is running on port ${process.env.PORT}`);
+app.listen(3001, () => {
+    console.log('Server is running on port 3001');
 });
 
 
