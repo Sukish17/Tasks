@@ -12,10 +12,10 @@ function Login({ setIsLoggedIn, isLoggedIn }) {
 
     const handleLogin = (e) => {
         e.preventDefault();
-        axios.post("https://login-server-one.vercel.app/login", { email, password }, { withCredentials: true })
+        axios.post("https://server-login-lemon.vercel.app/login", { email, password }, { withCredentials: true })
             .then(result => {
                 if (result.data === "Success") {
-                    axios.get('https://login-server-one.vercel.app/user', { withCredentials: true })
+                    axios.get('https://server-login-lemon.vercel.app/user', { withCredentials: true })
                         .then(response => {
                             if (response.data.user) {
                               setIsLoggedIn(true);
