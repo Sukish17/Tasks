@@ -16,7 +16,7 @@ app.use(cors({
 }));
 
 
-mongoose.connect('mongodb+srv://sukishkohli:Sukish17@cluster0.dqpo9.mongodb.net/DB?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('mongodb+srv://sukishkohli:Sukish17@cluster0.dqpo9.mongodb.net/DB?retryWrites=true&w=majority&appName=Cluster0');
 
 app.use(session({
     secret: '12345',
