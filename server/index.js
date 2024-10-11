@@ -9,14 +9,17 @@ const UserModel = require("./model/User");
 
 dotenv.config();
 const app = express();
-app.use(express.json());
+
 app.use(cors({
     origin: 'https://login-client-ten.vercel.app,
     credentials: true
 }));
+app.use(express.json());
 
 
-mongoose.connect('mongodb+srv://sukishkohli:Sukish17@cluster0.dqpo9.mongodb.net/DB?retryWrites=true&w=majority&appName=Cluster0');
+//mongoose.connect('mongodb+srv://sukishkohli:Sukish17@cluster0.dqpo9.mongodb.net/DB?retryWrites=true&w=majority&appName=Cluster0');
+mongoose.connect('mongodb+srv://yousaf:test123@cluster0.g4i5dey.mongodb.net/test?retryWrites=true&w=majority');
+
 
 app.use(session({
     secret: '12345',
