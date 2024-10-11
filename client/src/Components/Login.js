@@ -12,7 +12,7 @@ function Login({ setIsLoggedIn, isLoggedIn }) {
 
     const handleLogin = (e) => {
         e.preventDefault();
-        axios.post("https://server-taupe-chi.vercel.app/login", { email, password }, { withCredentials: true })
+        axios.post("https://login-server-one.vercel.app/login", { email, password }, { withCredentials: true })
             .then(result => {
                 if (result.data === "Success") {
                     axios.get('https://server-taupe-chi.vercel.app/user', { withCredentials: true })
