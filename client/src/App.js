@@ -12,7 +12,7 @@ function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   useEffect(() => {
-      axios.get('https://login-server-one.vercel.app', { withCredentials: true })
+      axios.get('https://server-login-lemon.vercel.app', { withCredentials: true })
           .then(response => {
               if (response.data.user) {
                   setIsLoggedIn(true);
