@@ -11,22 +11,22 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(cors({
-    origin: process.env.API_URL, // Replace with your frontend's URL
+    origin: 'http://localhost:3000,
     credentials: true
 }));
 
 
-mongoose.connect(process.env.MONGO_URI)
+mongoose.connect('mongodb+srv://sukishkohli:Sukish17@cluster0.dqpo9.mongodb.net/DB?retryWrites=true&w=majority&appName=Cluster0')
     .then(() => console.log('Connected to MongoDB'))
     .catch(err => console.error('Failed to connect to MongoDB', err));
 
 
 app.use(session({
-    secret: process.env.SESSION_SECRET,
+    secret: '12345',
     resave: false,
     saveUninitialized: true,
     store: MongoStore.create({
-        mongoUrl: process.env.MONGO_URI
+        mongoUrl:'mongodb+srv://sukishkohli:Sukish17@cluster0.dqpo9.mongodb.net/DB?retryWrites=true&w=majority&appName=Cluster0'
     }),
     cookie: { maxAge: 24 * 60 * 60 * 1000 } // 1 day
 }));
