@@ -13,7 +13,7 @@ function SignUp(){
 
     const handleSignup = (e) => {
         e.preventDefault();
-        axios.post("https://login-server-one.vercel.app/signup", { name, email, password })
+        axios.post("https://server-login-lemon.vercel.app/signup", { name, email, password })
             .then(result => {
                 if (result.status === 201) {
                     navigate("/login");
